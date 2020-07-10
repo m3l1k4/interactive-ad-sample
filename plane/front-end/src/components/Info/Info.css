@@ -1,0 +1,33 @@
+.Info {
+  background-color: #110305;
+  padding: 0 24px 24px 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Info__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 24px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Info__body--img {
+  width: 40vw;
+  height: 100%;
+}
+
+.Info__body--text {
+  width: 50vw;
+  color: #5FC5E5;
+  font-family: Verdana;
+}
+/*# sourceMappingURL=info.css.map */

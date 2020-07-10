@@ -1,0 +1,26 @@
+@import "../../common-styles/all-utils.scss";
+
+.Info {
+    background-color: $smokeyblack;
+    padding: 0 24px 24px 24px;
+    display: flex;
+    flex-direction: column;
+
+    &__body {
+        display: flex;
+
+        margin-top: 24px;
+        justify-content: space-between;
+        &--img {
+            width: 40vw;
+            height: 100%;
+        }
+
+        &--text {
+            width: 50vw;
+           color:$Dull-Blue;
+           font-family: Verdana;
+          
+        }
+    }
+}

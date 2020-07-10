@@ -24,7 +24,7 @@ export default function Plane({ handleHover }, { handleScore }) {
     return (
 
         <div>
-            <h1>hello</h1>
+    
 
             <div onMouseOver={scoreCalc} className="sky">
 
