@@ -1,62 +1,88 @@
-.sky {
-  width: 500px;
 
-  min-height: 500px;
+
+.sky {
+  max-width: 50vw;
+max-height: 50vw;
   background-color: skyblue;
   overflow: hidden;
   cursor: url("./airCanada.png"), auto;
   &__cloud-img {
-    width: 100px;
-    height: 100px;
+    width: 15vw;
+    height: auto;
   }
 
-  &__good-cloud {
-    width: 100px;
-    height: 100px;
+  &__cloud {
+    width: auto;
+    height: auto;
     position: relative;
     background-color: transparent;
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
     z-index: 10;
-
     border: none;
+    overflow: hidden;
   }
 
-  &__bad-cloud {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    background-color: transparent;
-    animation-name: example;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    z-index: 10;
+  &__goodA {
 
-    border: none;
+    top: 3vw;
+    animation-name: wind;
+    animation-duration: 4s ;
+    animation-iteration-count: infinite;
   }
+
+
+  &__badA {
+    top: -3vw;
+    animation-name: wind;
+    animation-duration: 2.10s;
+    animation-iteration-count: infinite;
+  }
+
+
+  &__goodB {
+    
+    top: -10vw;
+    animation-name: wind;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+  }
+
+
+  &__badB {
+   
+    top: -10vw;
+    animation-name: wind;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+  }
+
+
+  &__goodC {
+   
+    top: -25vw;
+    animation-name: wind;
+    animation-duration: 2.8s;
+    animation-iteration-count: infinite;
+  }
+
+
+  &__badC {
+   
+    top: -25vw;
+    animation-name: wind;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+  }
+
+
+
 }
 
-@keyframes example {
+@keyframes wind {
   from {
-    left: 500px;
+    left: 50vw;
   }
   to {
-    left: -100px;
+    left: -40vw;
   }
 }
-
-// .learn-more__hero-front{
-//   width: 150px;
-//   position: absolute;
-//   bottom:20%;
-//   left: 25%;
-
-//   animation:spin 2s linear infinite;
-//   animation-play-state:paused;
-
-// }
-
-// .learn-more__hero-front:hover{ animation-play-state:initial;}
-// @keyframes spin { 100% { transform: rotate(360deg); } }
 
