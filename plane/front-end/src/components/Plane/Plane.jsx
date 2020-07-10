@@ -6,28 +6,27 @@ import './Plane.scss'
 
 export default function Plane({ handleHover }, { handleScore }) {
 
-    handleHover = (event) => { 
-        
-        
-        console.log("potato")
-    
-    {
-        return(
-            <p>test</p>
-        )
+    handleHover = (event) => {
+
+
+        {
+            return (
+                <p>test</p>
+            )
+        }
+
+
     }
-    
-    
-    }
-   
+
 
     return (
 
         <div>
-    
+
 
             <div onMouseOver={scoreCalc} className="sky">
 
+                <img className="sky__logo" src='../assets/aircan-logo.png'></img>
                 <div className="score">
                     <p>{scoreCalc}</p>
                 </div>
@@ -75,9 +74,9 @@ export default function Plane({ handleHover }, { handleScore }) {
 
 }
 
-export function scoreCalc(){
+export function scoreCalc() {
 
-    let score= String(new Date().getTime());
+    let score = String(new Date().getTime());
     console.log(score)
     return score;
 
