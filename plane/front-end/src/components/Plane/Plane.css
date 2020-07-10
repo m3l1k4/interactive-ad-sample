@@ -8,6 +8,15 @@
   cursor: url("./airCanada.png"), auto;
 }
 
+.sky__logo {
+  position: absolute;
+  width: 30vw;
+  opacity: 0.60;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
 .sky__cloud-img {
   width: 15vw;
   height: auto;

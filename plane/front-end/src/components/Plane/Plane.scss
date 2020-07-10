@@ -10,6 +10,15 @@ max-height: 50vw;
   background-color: $Sapphire;
   overflow: hidden;
   cursor: url("./airCanada.png"), auto;
+
+  &__logo{
+     position: absolute;
+
+    width:30vw ;
+    opacity: 0.60;
+    align-self: center;
+  
+  }
   &__cloud-img {
     width: 15vw;
     height: auto;
