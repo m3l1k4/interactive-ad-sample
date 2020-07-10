@@ -1,5 +1,6 @@
 import React from "react";
 import { Route, Redirect, Switch, BrowserRouter as Router } from 'react-router-dom'
+import  Hero from './components/Hero'
 
 class App extends React.Component {
   render() {
@@ -7,7 +8,8 @@ class App extends React.Component {
 
 
       <div className="App">
-        <h1>home</h1>
+
+        <Hero/>
       </div>
 
     );

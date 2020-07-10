@@ -6,6 +6,8 @@ import Plane from './components/Plane'
 // import LandingPage from "./components/LandingPage";
 import Data from './components/Data'
 import Home from './Home'
+import './App.css';
+
 class App extends React.Component {
   render() {
     return (

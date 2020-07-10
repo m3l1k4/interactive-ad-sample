@@ -1,0 +1,18 @@
+@import '../../common-styles/all-utils.scss';
+
+
+.Hero{
+
+width: 100%;
+height: 70vw;
+display: flex;
+justify-content: center;
+align-items: center;
+    background-color: $smokeyblack;
+    &__logo{
+
+        height: 10vw;
+        width: auto;
+
+    }
+}
