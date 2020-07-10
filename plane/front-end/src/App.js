@@ -6,6 +6,7 @@ import Plane from './components/Plane'
 // import LandingPage from "./components/LandingPage";
 import Data from './components/Data'
 import Home from './Home'
+import Footer from './components/Footer'
 import './App.css';
 
 class App extends React.Component {
@@ -24,6 +25,7 @@ class App extends React.Component {
             <Data />
           </Route>
         </Switch>
+        <Footer/>
       </Router>
     )
   }
