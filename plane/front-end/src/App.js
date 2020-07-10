@@ -3,7 +3,7 @@ import { Route, Redirect, Switch, BrowserRouter as Router } from 'react-router-d
 
 import './App.css';
 
-import Plane from './components'
+import Plane from './components/Plane'
 
 class App extends React.Component {
 
