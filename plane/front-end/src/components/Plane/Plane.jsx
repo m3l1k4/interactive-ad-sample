@@ -6,7 +6,19 @@ import './Plane.scss'
 
 export default function Plane({ handleHover }, { handleScore }) {
 
-    handleHover = (event) => { console.log("potato") }
+    handleHover = (event) => { 
+        
+        
+        console.log("potato")
+    
+    {
+        return(
+            <p>test</p>
+        )
+    }
+    
+    
+    }
    
 
     return (
@@ -49,6 +61,11 @@ export default function Plane({ handleHover }, { handleScore }) {
 
 
             </div>
+
+
+
+
+
 
 
 
