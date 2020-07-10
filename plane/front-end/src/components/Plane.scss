@@ -1,0 +1,62 @@
+.sky {
+  width: 500px;
+
+  min-height: 500px;
+  background-color: skyblue;
+  overflow: hidden;
+  cursor: url("./airCanada.png"), auto;
+  &__cloud-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  &__good-cloud {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: transparent;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    z-index: 10;
+
+    border: none;
+  }
+
+  &__bad-cloud {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: transparent;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    z-index: 10;
+
+    border: none;
+  }
+}
+
+@keyframes example {
+  from {
+    left: 500px;
+  }
+  to {
+    left: -100px;
+  }
+}
+
+// .learn-more__hero-front{
+//   width: 150px;
+//   position: absolute;
+//   bottom:20%;
+//   left: 25%;
+
+//   animation:spin 2s linear infinite;
+//   animation-play-state:paused;
+
+// }
+
+// .learn-more__hero-front:hover{ animation-play-state:initial;}
+// @keyframes spin { 100% { transform: rotate(360deg); } }
+
