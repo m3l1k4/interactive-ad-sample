@@ -5,27 +5,29 @@ import './App.css';
 
 import Plane from './components/Plane'
 import NavBar from './components/NavBar'
+// import LandingPage from './LandingPage'
+import Home from './Home'
 
 class App extends React.Component {
 
 
-  state ={
-    score:[]
+  state = {
+    score: []
   }
 
 
 
-//   handleScore = (event) => {
+  //   handleScore = (event) => {
 
 
-//     this.setState({
+  //     this.setState({
 
-//         }]
-//     })
-   
+  //         }]
+  //     })
 
 
-// }
+
+  // }
 
 
 
@@ -35,15 +37,14 @@ class App extends React.Component {
 
       <Router>
         <div className="App">
-        <NavBar />
+          <NavBar />
           <Switch>
 
-            <Route exact path="/">
-              {/* <Plane /> */}
-            </Route>
+            <Home />
+
+
 
           </Switch>
-
         </div>
 
       </Router>
