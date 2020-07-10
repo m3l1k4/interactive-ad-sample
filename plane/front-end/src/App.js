@@ -3,7 +3,6 @@ import { Route, Switch, BrowserRouter as Router } from 'react-router-dom'
 import './common-styles/base.scss';
 import Nav from './components/Nav';
 import Plane from './components/Plane'
-// import LandingPage from "./components/LandingPage";
 import Data from './components/Data'
 import Home from './Home'
 import Footer from './components/Footer'
