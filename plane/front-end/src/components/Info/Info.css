@@ -1,5 +1,5 @@
 .Info {
-  background-color: #360116;
+  background-color: #110305;
   padding: 0 24px 24px 24px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -27,7 +27,7 @@
 
 .Info__body--text {
   width: 50vw;
-  color: #FEECFB;
+  color: #5FC5E5;
   font-family: Verdana;
 }
 /*# sourceMappingURL=info.css.map */

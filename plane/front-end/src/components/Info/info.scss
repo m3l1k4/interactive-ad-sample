@@ -1,7 +1,7 @@
 @import "../../common-styles/all-utils.scss";
 
 .Info {
-    background-color: $DarkBurg;
+    background-color: $smokeyblack;
     padding: 0 24px 24px 24px;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@
 
         &--text {
             width: 50vw;
-           color:$PalePurple;
+           color:$Dull-Blue;
            font-family: Verdana;
           
         }
