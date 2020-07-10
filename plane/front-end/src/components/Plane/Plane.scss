@@ -1,9 +1,13 @@
 
+@import '../../common-styles/all-utils.scss';
 
 .sky {
+
+  margin: 2rem;
+border-radius: 4px;  
   max-width: 50vw;
 max-height: 50vw;
-  background-color: skyblue;
+  background-color: $Sapphire;
   overflow: hidden;
   cursor: url("./airCanada.png"), auto;
   &__cloud-img {
@@ -19,6 +23,10 @@ max-height: 50vw;
     z-index: 10;
     border: none;
     overflow: hidden;
+
+    opacity: 0.75;
+
+    
   }
 
   &__goodA {

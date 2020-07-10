@@ -1,7 +1,9 @@
 .sky {
+  margin: 2rem;
+  border-radius: 4px;
   max-width: 50vw;
   max-height: 50vw;
-  background-color: skyblue;
+  background-color: #276A8E;
   overflow: hidden;
   cursor: url("./airCanada.png"), auto;
 }
@@ -19,6 +21,7 @@
   z-index: 10;
   border: none;
   overflow: hidden;
+  opacity: 0.75;
 }
 
 .sky__goodA {
