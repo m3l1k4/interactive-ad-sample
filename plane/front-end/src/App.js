@@ -1,58 +1,30 @@
 import React from "react";
-import { Route, Redirect, Switch, BrowserRouter as Router } from 'react-router-dom'
-
-import './App.css';
-
+import { Route, Switch, BrowserRouter as Router } from 'react-router-dom'
+import './common-styles/base.scss';
+import Nav from './components/Nav';
 import Plane from './components/Plane'
-import NavBar from './components/NavBar'
-// import LandingPage from './LandingPage'
+// import LandingPage from "./components/LandingPage";
+import Data from './components/Data'
 import Home from './Home'
-
 class App extends React.Component {
-
-
-  state = {
-    score: []
-  }
-
-
-
-  //   handleScore = (event) => {
-
-
-  //     this.setState({
-
-  //         }]
-  //     })
-
-
-
-  // }
-
-
-
   render() {
-
     return (
-
       <Router>
-        <div className="App">
-          <NavBar />
-          <Switch>
-
-            <Home />
-
-
-
-          </Switch>
-        </div>
-
+        <Nav />
+        <Switch>
+          <Route exact path="/">
+            <Home/>
+          </Route>
+          <Route path="/interactive">
+            <Plane />
+          </Route>
+          <Route path="/data">
+            <Data />
+          </Route>
+        </Switch>
       </Router>
-
     )
-
   }
-
 }
 
 export default App;
