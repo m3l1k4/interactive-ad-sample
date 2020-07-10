@@ -16,5 +16,31 @@
 .Hero__logo {
   height: 10vw;
   width: auto;
+  -webkit-animation: flash 2s linear infinite;
+          animation: flash 2s linear infinite;
+}
+
+@-webkit-keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.40;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.40;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 /*# sourceMappingURL=Hero.css.map */

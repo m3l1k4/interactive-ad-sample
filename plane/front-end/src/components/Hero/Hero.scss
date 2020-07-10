@@ -13,6 +13,20 @@ align-items: center;
 
         height: 10vw;
         width: auto;
+        animation: flash 2s linear infinite;
 
     }
 }
+
+
+@keyframes flash {
+    0% {
+      opacity: 1;
+    }
+    50% {
+        opacity: 0.40;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
