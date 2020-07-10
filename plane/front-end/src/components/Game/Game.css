@@ -1,33 +1,8 @@
 .Game {
   background-color: #110305;
-  padding: 0 24px 24px 24px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.Game__body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 24px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.Game__body--img {
-  width: 40vw;
-  height: 100%;
-}
-
-.Game__body--text {
-  width: 50vw;
-  color: #5FC5E5;
-  font-family: Verdana;
+  margin: 10vw 25vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=Game.css.map */

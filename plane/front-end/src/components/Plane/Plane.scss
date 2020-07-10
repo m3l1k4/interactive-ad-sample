@@ -5,11 +5,20 @@
 
   margin: 2rem;
 border-radius: 4px;  
-  max-width: 50vw;
-max-height: 50vw;
+  max-width: 40vw;
+max-height: 40vw;
   background-color: $Sapphire;
   overflow: hidden;
   cursor: url("./airCanada.png"), auto;
+  
+  &__logo{
+     position: absolute;
+
+    width:30vw ;
+    opacity: 0.60;
+    align-self: center;
+  
+  }
   &__cloud-img {
     width: 15vw;
     height: auto;
