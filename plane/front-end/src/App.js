@@ -7,6 +7,7 @@ import Plane from './components/Plane'
 import Data from './components/Data'
 import Home from './Home'
 import Footer from './components/Footer'
+import Game from './components/Game'
 import './App.css';
 
 class App extends React.Component {
@@ -19,7 +20,7 @@ class App extends React.Component {
             <Home/>
           </Route>
           <Route path="/interactive">
-            <Plane />
+            <Game />
           </Route>
           <Route path="/data">
             <Data />
