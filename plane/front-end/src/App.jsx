@@ -7,6 +7,7 @@ import LandingPage from "./components/LandingPage";
 import Data from './components/Data'
 
 class App extends React.Component {
+
   render() {
     return (
       <Router>
