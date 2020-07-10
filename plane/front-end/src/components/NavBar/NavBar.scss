@@ -1,0 +1,12 @@
+@import "../../partials/variables.scss";
+
+.NavBar{
+
+    height: 80px;
+background-color: black;
+    &__logo{
+        margin:12px;
+        width: auto;
+        height: 48px;
+    }
+} 
