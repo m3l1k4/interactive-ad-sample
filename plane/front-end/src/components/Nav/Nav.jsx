@@ -5,13 +5,13 @@ import './Nav.scss';
 export default function Nav() {
     return (
         <nav className="nav">
-            <Link className="nav__title-group" to="/">
+            <Link className="nav__title-group nav__link" to="/">
                 <img className="nav__img" src={`${process.env.PUBLIC_URL}/assets/gcloud.png`} alt="Site logo" />
-                <h2 className="nav__title">Game of Games</h2>
+                <h2 className="nav__title">ADS GAMIFIED</h2>
             </Link>
             <ul className="nav__list">
-                <Link to="/data" ><li className="nav__item">The Data</li></Link>
-                <Link to="/interactive" ><li className="nav__item">The Game</li></Link>
+                <Link to="/data" className="nav__link"><li className="nav__item">The Data</li></Link>
+                <Link to="/interactive" className="nav__link"><li className="nav__item">The Game</li></Link>
             </ul>
         </nav>
     )
