@@ -1,5 +1,11 @@
 @import '../../common-styles/all-utils.scss';
 
+li{
+    list-style-type:none;
+}
+.link{
+    text-decoration: none;
+}
 .nav {
     height: 6rem;
     width: 100%;
@@ -29,7 +35,7 @@
 
     &__item {
         text-decoration-line: none;
-        color: $honeydew;
+        color: $Dull-Blue;
         width: 5rem;
     }
 
